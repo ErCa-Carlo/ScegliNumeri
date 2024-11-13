@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: rgb(57, 137, 149);
+    background-color: darkslategrey;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    background: url(image.png);
+    background: lightseagreen;
     min-width: 550px;
     min-height: 500px;
     max-width: 1000px;
@@ -41,7 +41,7 @@ body {
     width: 50px;
     height: 50px;
     background-color: darkblue;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     border-radius: 100%;
     /* Flex */
     display: flex;
@@ -60,7 +60,7 @@ body {
 }
 
 .clicked {
-    background-color: darkcyan;
+    background-color: darkmagenta;
 }
 
 #dialog {
@@ -73,5 +73,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Font */
+    font-size: xx-large;
+    font-weight: 800;
 }
 
